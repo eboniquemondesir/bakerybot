@@ -4,7 +4,7 @@
 ## Pacakages that need to be installed:
 
 ###### BakerBot.py
-
+```
   import nltk
  
   from nltk.stem import WordNetLemmatizer
@@ -24,7 +24,7 @@
   from keras.optimizers import SGD
   
   import random
-  
+```
  -chatbotapp.py
  
   import nltk

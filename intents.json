@@ -1,0 +1,52 @@
+{
+	"intents": [
+				{
+					"tag": "greetings",
+					"patterns": [ "Hello", "Hi", "Greetings", "Yo", "What's up", "Good Day", "Is anyone there?", "Hey" ],
+					"responses": [ "Hello! Nice to meet you. Ask me anything!", "Good Day, what would you like to know?", "Greetings! What information would you like about the bakery?" ],
+					"context": ""
+				},
+				{
+					"tag": "goodbye",
+					"patterns": [ "Goodbye", "See you later", "See ya", "Bye", "Good Day", "Cya", "Goodnight" ],
+					"responses": [ "Speak to you later!", "Hopefully I have been good company!", "Goodbye", "See you!", "Bye for now!" ],
+					"context": ""
+				},
+				{
+					"tag": "noanswer",
+					"patterns": [],
+					"responses": [ "I'm sorry, I'm not sure of what mean.", "Sorry, I don't quite understand this.", "Apologies, I haven't learnt that yet.", "I cannot answer this but feel free to call us on +44 7986 256489" ],
+					"context": ""
+				},
+				{
+					"tag": "drinks_items",
+					"patterns": [ "what drinks do you have?", "drinks menu", "what can i drink?", "drink options", "beverages", "beverage inforamtion" ],
+					"responses": [ "Fentimans Cherry Cola", "Fentimans Pink Lemonade", "Gingerella", "Still Lemonade", "Water", "Apple Juice", "Cranberry Juice", "Tea", "Coffee", "Hot Chocolate" ],
+					"context": ""
+				},
+				{
+					"tag": "food_menu",
+					"patterns": [ "what food do you have?", "food list", "what can i eat?", "food details" ],
+					"responses": [ "Paninis (Cheese, Tuna Mayo, Brie and Cranberry, Chicken Tikka)", "Cakes (Cupcakes, Chocolate, Victoria, Carrot)", "Crisps", "Bread", "Pastries", "Sandwiches" ],
+					"context": ""
+				},
+				{
+					"tag": "delivery_info",
+					"patterns": [ "do you deliver?", "delivery", "deliver", "information about delivery", "what are your delivery details?" ],
+					"responses": [ "We deliver to a 3 mile radius between 9 AM and 3PM Monday to Saturday", "Yes we do deliver - Monday to Saturday", "We deliver to a 3 mile radius", "Yes, we deliver!" ],
+					"context": ""
+				},
+				{
+					"tag": "opening_times",
+					"patterns": [ "what time do you open?", "when do you open?", "what are the opening times?", "opening times", "times" ],
+					"responses": [ "We open from 08:30-18:00, Monday to Saturday and 09:30-16:00 on Sundays", "Monday to Saturday (08:30-18:00) and Sunday(09:30-16:00)" ],
+					"context": ""
+				},
+				{
+					"tag": "location_details",
+					"patterns": [ "where are you?", "location", "what is your location?", "where can i find you?", "where is the bakery?", "address", "what is the bakery's address?" ],
+					"responses": [ "We are located in the UK. Find us on your GPS!", "We are in the UK, find us by searching on your GPS", "We can be found through a web search or a  GPS search" ],
+					"context": ""
+				}
+	]
+}

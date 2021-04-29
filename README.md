@@ -5,7 +5,7 @@ Pacakages that need to be installed:
 
 -BakerBot.py
 
-  import nltk,
+  import nltk\n
   from nltk.stem import WordNetLemmatizer,
   lemmatizer = WordNetLemmatizer(),
   import json,

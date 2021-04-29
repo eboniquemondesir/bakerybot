@@ -25,8 +25,8 @@
   
   import random
 ```
- -chatbotapp.py
- 
+ ###### chatbotapp.py
+ ```
   import nltk
   
   from nltk.stem import WordNetLemmatizer
@@ -47,23 +47,23 @@
   import json
   
   import random
-  
-  -chatbotGUI.py
-  
+```
+  ###### chatbotGUI.py
+```  
   import tkinter
   
   from tkinter import *
   
   from chatbotapp import chatbot_response
-  
+```  
 
-If using a terminal or shell, it is best use these installs;
-
+**If using a terminal or shell, it is best use these installs:**
+```
   pickle-mixin
   
   python -m nltk.downloader all
-  
-The python files must be run in this order:
+```  
+**The python files must be run in this order:**
   1. BakerBot.py
   2. chatbotapp.py
   3. chatbotGUI.py

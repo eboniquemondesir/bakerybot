@@ -1,9 +1,9 @@
 # bakerybot
-A keras tensorflow chatbot that has learnt to give responses when asked questions about a bakery.
+**A keras tensorflow chatbot that has learnt to give responses when asked questions about a bakery.**
 
-Pacakages that need to be installed:
+## Pacakages that need to be installed:
 
--BakerBot.py
+###### BakerBot.py
 
   import nltk
  
